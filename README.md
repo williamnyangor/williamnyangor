@@ -34,7 +34,11 @@ If something is slowing your team down, I'd love to hear about it.
 
 **Data & infrastructure**
 <br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,aws,githubactions,ubuntu,git" alt="data and infrastructure" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,aws,githubactions,ubuntu,git,kafka,terraform" alt="data and infrastructure" />
+<br/>
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-1C3C3C?style=flat-square&logo=apachespark&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-1C3C3C?style=flat-square&logo=apacheairflow&logoColor=white)
+![Apache Iceberg](https://img.shields.io/badge/Apache%20Iceberg-1C3C3C?style=flat-square)
 
 **AI & LLM engineering**
 <br/>
@@ -49,10 +53,11 @@ If something is slowing your team down, I'd love to hear about it.
 ![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-1C3C3C?style=flat-square)
 
-### What I'm focused on right now
+### What I'm working on right now
 
 - **A LangGraph multi-agent academic advisory platform** — supervisor-routed agents, PostgreSQL-checkpointed state, and a PGVector RAG layer with deterministic SQL guardrails so a model never invents a result.
 - **TOIL Calculator, a production HR platform for a leading international education agency** — Laravel, Inertia, and React, with a policy-encoded leave calculation engine, OCR-assisted travel claims, and role-based access across 70+ permission cases.
+- **KwanAluora, a containerized sustainability data platform** — a Kafka-fed Spark/Iceberg lakehouse with deterministic carbon accounting, orchestrated by Airflow and deployed to AWS (EC2, S3, ECR, IAM, Systems Manager) via Terraform and GitHub Actions.
 
 ### GitHub stats
 
