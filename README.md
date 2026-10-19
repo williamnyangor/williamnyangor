@@ -32,13 +32,17 @@ If something is slowing your team down, I'd love to hear about it.
 <br/>
 <img src="https://skillicons.dev/icons?i=python,ts,js,php,bash,laravel,fastapi,react,tailwind,vite" alt="languages and frameworks" />
 
+**Data engineering & lakehouse**
+<br/>
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-1C3C3C?style=flat-square&logo=apachekafka&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-1C3C3C?style=flat-square&logo=apachespark&logoColor=white)
+![Apache Iceberg](https://img.shields.io/badge/Apache%20Iceberg-1C3C3C?style=flat-square)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-1C3C3C?style=flat-square&logo=amazons3&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-1C3C3C?style=flat-square&logo=apacheairflow&logoColor=white)
+
 **Data & infrastructure**
 <br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,aws,githubactions,ubuntu,git,kafka,terraform" alt="data and infrastructure" />
-<br/>
-![Apache Spark](https://img.shields.io/badge/Apache%20Spark-1C3C3C?style=flat-square&logo=apachespark&logoColor=white)
-![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-1C3C3C?style=flat-square&logo=apacheairflow&logoColor=white)
-![Apache Iceberg](https://img.shields.io/badge/Apache%20Iceberg-1C3C3C?style=flat-square)
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,aws,githubactions,ubuntu,git,terraform" alt="data and infrastructure" />
 
 **AI & LLM engineering**
 <br/>
