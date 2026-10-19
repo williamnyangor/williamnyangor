@@ -28,21 +28,33 @@ If something is slowing your team down, I'd love to hear about it.
 
 ### What I work with
 
-**Languages & frameworks**
+Grouped by what each tool actually is, not where I happened to use it first — so nothing appears twice and nothing's missing.
+
+**Languages**
 <br/>
-<img src="https://skillicons.dev/icons?i=python,ts,js,php,bash,laravel,fastapi,react,tailwind,vite" alt="languages and frameworks" />
+<img src="https://skillicons.dev/icons?i=python,ts,js,php,bash" alt="languages" />
+
+**Frameworks & libraries**
+<br/>
+<img src="https://skillicons.dev/icons?i=laravel,fastapi,react,tailwind,vite" alt="frameworks and libraries" />
 
 **Data engineering & lakehouse**
 <br/>
 ![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-1C3C3C?style=flat-square&logo=apachekafka&logoColor=white)
 ![Apache Spark](https://img.shields.io/badge/Apache%20Spark-1C3C3C?style=flat-square&logo=apachespark&logoColor=white)
 ![Apache Iceberg](https://img.shields.io/badge/Apache%20Iceberg-1C3C3C?style=flat-square)
-![Amazon S3](https://img.shields.io/badge/Amazon%20S3-1C3C3C?style=flat-square&logo=amazons3&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-1C3C3C?style=flat-square)
 ![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-1C3C3C?style=flat-square&logo=apacheairflow&logoColor=white)
 
-**Data & infrastructure**
+**Databases & caching**
 <br/>
-<img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,aws,githubactions,ubuntu,git,terraform" alt="data and infrastructure" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,redis" alt="databases and caching" />
+<br/>
+![PGVector](https://img.shields.io/badge/PGVector-1C3C3C?style=flat-square)
+
+**Cloud & DevOps**
+<br/>
+<img src="https://skillicons.dev/icons?i=docker,git,githubactions,ubuntu,aws,terraform" alt="cloud and devops" />
 <br/>
 ![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-1C3C3C?style=flat-square)
 ![Amazon ECS](https://img.shields.io/badge/Amazon%20ECS-1C3C3C?style=flat-square)
@@ -56,7 +68,6 @@ If something is slowing your team down, I'd love to hear about it.
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
 ![RAG](https://img.shields.io/badge/RAG-1C3C3C?style=flat-square)
-![PGVector](https://img.shields.io/badge/PGVector-1C3C3C?style=flat-square)
 ![Pydantic](https://img.shields.io/badge/Pydantic-1C3C3C?style=flat-square&logo=pydantic&logoColor=white)
 ![Amazon Bedrock](https://img.shields.io/badge/Amazon%20Bedrock-1C3C3C?style=flat-square&logo=amazonaws&logoColor=white)
 ![Anthropic Claude](https://img.shields.io/badge/Anthropic%20Claude-1C3C3C?style=flat-square&logo=anthropic&logoColor=white)
