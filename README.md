@@ -43,6 +43,13 @@ If something is slowing your team down, I'd love to hear about it.
 **Data & infrastructure**
 <br/>
 <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,docker,aws,githubactions,ubuntu,git,terraform" alt="data and infrastructure" />
+<br/>
+![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-1C3C3C?style=flat-square)
+![Amazon ECS](https://img.shields.io/badge/Amazon%20ECS-1C3C3C?style=flat-square)
+![Amazon RDS](https://img.shields.io/badge/Amazon%20RDS-1C3C3C?style=flat-square)
+![Amazon ECR](https://img.shields.io/badge/Amazon%20ECR-1C3C3C?style=flat-square)
+![AWS IAM](https://img.shields.io/badge/AWS%20IAM-1C3C3C?style=flat-square)
+![AWS Systems Manager](https://img.shields.io/badge/AWS%20Systems%20Manager-1C3C3C?style=flat-square)
 
 **AI & LLM engineering**
 <br/>
