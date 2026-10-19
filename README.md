@@ -28,8 +28,6 @@ If something is slowing your team down, I'd love to hear about it.
 
 ### What I work with
 
-Grouped by what each tool actually is, not where I happened to use it first — so nothing appears twice and nothing's missing.
-
 **Languages**
 <br/>
 <img src="https://skillicons.dev/icons?i=python,ts,js,php,bash" alt="languages" />
