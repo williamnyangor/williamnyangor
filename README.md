@@ -75,7 +75,7 @@ If something is slowing your team down, I'd love to hear about it.
 
 ### What I'm working on right now
 
-- **A LangGraph multi-agent academic advisory platform** — supervisor-routed agents, PostgreSQL-checkpointed state, and a PGVector RAG layer with deterministic SQL guardrails so a model never invents a result.
+- **Get-Ahead, a conversational eligibility-matching platform for international postgraduate admissions** — a LangGraph agent runs a deterministic text-to-SQL pipeline against a Postgres catalogue, with per-turn conversation state checkpointed in Postgres, so a model never invents a result. React/TypeScript frontend, Python/FastAPI backend.
 - **TOIL Calculator, a production HR platform for a leading international education agency** — automates Time Off In Lieu calculation, tracking, and expiry across a multi-country workforce, with OCR-assisted international travel claims and fine-grained, role-based access. Built with Laravel, Inertia, and React.
 - **KwanAluora, a sustainability data platform** — turns raw facility activity data into deterministic, auditable carbon-accounting figures in a governed analytical warehouse. Built on a Kafka-fed Spark/Iceberg lakehouse orchestrated by Airflow, containerized and deployed to AWS (EC2, S3, ECR, IAM, Systems Manager) via Terraform and GitHub Actions.
 
