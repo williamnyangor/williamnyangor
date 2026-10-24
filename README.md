@@ -82,12 +82,12 @@ If something is slowing your team down, I'd love to hear about it.
 ### GitHub stats
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=williamnyangor&show_icons=true&count_private=true&theme=github_dark&hide_border=true&bg_color=00000000" />
-  <img src="https://github-readme-stats.vercel.app/api?username=williamnyangor&show_icons=true&count_private=true&theme=default&hide_border=true" alt="GitHub stats" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+  <img src="./profile/stats-light.svg" alt="GitHub stats" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=williamnyangor&layout=compact&count_private=true&theme=github_dark&hide_border=true&bg_color=00000000" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=williamnyangor&layout=compact&count_private=true&theme=default&hide_border=true" alt="Top languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
+  <img src="./profile/top-langs-light.svg" alt="Top languages" />
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=williamnyangor&theme=github-dark-blue&hide_border=true&background=00000000" />
