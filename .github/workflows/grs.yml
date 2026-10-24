@@ -1,0 +1,60 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # Daily at 03:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      # count_private needs a PAT (repo + read:user scopes) in the STATS_PAT secret - the default
+      # GITHUB_TOKEN can only ever see public repos, which is why these cards previously showed no
+      # language data (almost all real work lives in private repos). One pair of light/dark SVGs
+      # per card to match the README's existing <picture> prefers-color-scheme swap.
+      - name: Generate stats card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=williamnyangor&show_icons=true&count_private=true&theme=github_dark&hide_border=true&bg_color=00000000
+          path: profile/stats-dark.svg
+          token: ${{ secrets.STATS_PAT }}
+
+      - name: Generate stats card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=williamnyangor&show_icons=true&count_private=true&theme=default&hide_border=true
+          path: profile/stats-light.svg
+          token: ${{ secrets.STATS_PAT }}
+
+      - name: Generate top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=williamnyangor&layout=compact&count_private=true&theme=github_dark&hide_border=true&bg_color=00000000
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.STATS_PAT }}
+
+      - name: Generate top languages card (light)
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=williamnyangor&layout=compact&count_private=true&theme=default&hide_border=true
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.STATS_PAT }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git push
